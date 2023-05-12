@@ -47,19 +47,24 @@ Los datos de un animal están representados en formato JSON y contienen los sigu
 
 - Obtener todos los animales:
 
+```http
 GET /animales
-
+```
 
 - Obtener un animal por su nombre (ejemplo: Leon):
 
+```http
 GET /animales/Leon
-
+```
 
 - Agregar un nuevo animal:
 
+```http
 POST /animales
 Content-Type: application/json
+```
 
+```json
 {
 "nombre": "Gorila",
 "especie": "Gorilla gorilla",
@@ -67,13 +72,16 @@ Content-Type: application/json
 "locomocion": "terrestre",
 "reproduccion": "viviparo"
 }
-
+```
 
 - Actualizar un animal por su nombre (ejemplo: León):
 
+```http
 PUT /animales/León
 Content-Type: application/json
+```
 
+```json
 {
 "nombre": "León",
 "especie": "Panthera leo",
@@ -81,8 +89,10 @@ Content-Type: application/json
 "locomocion": "terrestre",
 "reproduccion": "vivíparo"
 }
-
+```
 
 - Eliminar un animal por su nombre (ejemplo: León):
 
+```http
 DELETE /animales/León
+```
