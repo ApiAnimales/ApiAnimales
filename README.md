@@ -14,8 +14,9 @@ Este programa es una API que permite realizar operaciones básicas sobre una lis
 2. Asegúrate de tener Python 3 instalado en tu sistema.
 3. Instala las dependencias del programa ejecutando el siguiente comando en tu terminal:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Uso
 
